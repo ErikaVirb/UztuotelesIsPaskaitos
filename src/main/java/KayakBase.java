@@ -12,5 +12,7 @@ public class KayakBase { // Svarbiausios savybes.
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
-
+    public static void goTo() {
+        driver.get("https://www.kayak.com");
+    }
 }

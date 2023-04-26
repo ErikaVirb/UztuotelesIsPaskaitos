@@ -32,6 +32,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
     public void kayakStayTest(){
        KayakBase.goTo();
        KayakHome.stays();
+       KayakHome.search();
+       KayakHome.dates();
+       KayakHome.guestsNumber();
+       KayakHome.searchButton();
     }
 
     @AfterClass

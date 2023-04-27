@@ -30,7 +30,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
     }
     @Test
     public void kayakStayTest(){
-       KayakBase.goTo();
+//       KayakBase.goTo();
        KayakHome.stays();
        KayakHome.search();
        KayakHome.dates();

@@ -16,7 +16,9 @@ public class KayakHome extends KayakBase {
     private  static final By firstDay = By.cssSelector("div[aria-label='Wednesday May 10, 2023']");
     private static final By lastDay = By.cssSelector("div[aria-label='Saturday May 27, 2023']"); //.mkUa.mkUa-pres-mcfly.mkUa-isEndDate.mkUa-isSelected
     private static final By guestsNumber = By.cssSelector(".G2iq-displayContent");
-    private static final By minus1Adult = By.xpath("/html/body/div[16]/div/div/div/div/div/div[2]/div/button[1]");
+    private static final By minus1Adult = By.xpath("//div[@role='presentation']//div[2]//div[1]//button[1]");
+//        /html/body/div[16]/div/div/div/div/div/div[2]/div/button[1]
+//        /html/body/div[15]/div/div/div/div/div/div[2]/div/button[1]
     private static final By searchButton = By.xpath("/html/body/div[2]/div[1]/main/div[1]/div[1]/div/div[1]/div/div/section/div/div/div/div/div/div[1]/div[2]/button");
 
     public KayakHome(WebDriver driver) { // Konstruktorius.
